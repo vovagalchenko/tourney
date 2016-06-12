@@ -110,6 +110,7 @@ function update() {
       .attr("fill", contentColor)
       .attr("text-anchor", "middle")
       .attr("alignment-baseline", "central")
+      .attr("dominant-baseline", "middle")
       .attr("y", headerHeight/2.0)
       .attr("height", headerHeight)
       .attr("pointer-events", "none");
